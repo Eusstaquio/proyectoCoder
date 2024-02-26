@@ -1,0 +1,275 @@
+
+.header{
+    background-image: url(../Resorces/bg_image_section1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    max-width: 1900px;
+    margin: auto;
+
+    .headerContainer{
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin:  auto;
+        padding: 2%;
+
+        &__h1{
+            color: white;
+            font-size: 2.5rem;
+            text-align: start;
+            width: 100%;
+        }
+
+        &__flexbox{
+            padding-top: 44%;
+            justify-content: center; /* Centrado horizontal */
+            align-items: center; /* Centrado vertical */
+            text-align: end; 
+            & .text{
+                color: white;
+                font-size: 1.3rem;
+                grid-area: text;
+                text-align: start;
+            }
+
+            & .tagsCont{
+                padding-left: 1rem;
+                margin-top: .8rem;
+                gap: 1rem;
+
+                & .tags{
+                    width: auto;
+                    padding: 1rem 5% ;
+                    background-color: rgba(255, 255, 255, 0.6);
+                    align-self: center;
+                    text-align: center;
+                    border-radius: 6px;
+    
+                    & :hover{
+                        background-color: rgba(255, 255, 255, 1);
+                    }
+                }
+            }
+
+
+            & .cta{
+                font-weight: 600;
+                width: 65%;
+                padding: 1rem;
+                background-color: white;
+                border-radius: 6px;
+                border: none;
+
+                & :hover{
+                    color: white;
+                    background-color: black;
+                    transition: 0.4s ease;
+                }
+            }
+
+        }
+        & .exploreText{
+            font-size: 1rem;
+            color: white;
+            text-align: center;
+            margin-top: 1.5rem;
+            text-align: center;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .header{
+        background-image: url(../Resorces/bg_image_section1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        max-width: 1900px;
+        margin: auto;
+    
+        .headerContainer{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin:  auto;
+            padding: 2%;
+            
+    
+            &__h1{
+                color: white;
+                font-size: 2.5rem;
+                text-align: center;
+                width: 100%;
+            }
+            
+            & .row{
+                margin: auto;
+            }
+
+            &__flexbox{
+                padding-top: 90%;
+                justify-content: center; /* Centrado horizontal */
+                align-items: center; /* Centrado vertical */
+                text-align: center;
+                
+                & .columna1_flex{
+                    width: 100%;
+                }
+
+                & .text{
+                    color: rgb(255, 255, 255);
+                    font-size: 1rem;
+                    grid-area: text;
+                    text-align: center;
+                    width: 90%;
+                    margin: auto;
+                }
+    
+                & .tagsCont{
+                    margin: auto;
+                    margin-top: .5rem;
+                    padding: 0%;
+                    justify-content: center;
+    
+                    & .tags{
+                        width: auto;
+                        padding: .6rem 1rem;
+                        background-color: rgba(255, 255, 255, 0.6);
+                        align-self: center;
+                        text-align: center;
+                        border-radius: 6px;
+        
+                        & :hover{
+                            background-color: rgba(255, 255, 255, 1);
+                        }
+                    }
+                }
+    
+    
+                & .cta{
+                    font-weight: 600;
+                    width: 90%;
+                    margin-top: 3%;
+                    padding: 1rem;
+                    background-color: white;
+                    border-radius: 6px;
+                    border: none;
+                    align-self: center;
+                    font-size: 1rem;
+    
+                    & :hover{
+                        color: white;
+                        background-color: black;
+                        transition: 0.4s ease;
+                    }
+                }
+    
+            }
+            & .exploreText{
+                display: none;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .header{
+        background-image: url(../Resorces/bg_image_section1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        max-width: 1900px;
+        margin: auto;
+    
+        .headerContainer{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin:  auto;
+            padding: 2%;
+            
+    
+            &__h1{
+                color: white;
+                font-size: 2.5rem;
+                text-align: center;
+                width: 100%;
+            }
+            
+            & .row{
+                margin: auto;
+            }
+
+            &__flexbox{
+                padding-top: 90%;
+                justify-content: center; /* Centrado horizontal */
+                align-items: center; /* Centrado vertical */
+                text-align: center;
+                
+                & .columna1_flex{
+                    width: 100%;
+                }
+
+                & .text{
+                    color: rgb(255, 255, 255);
+                    font-size: 1rem;
+                    grid-area: text;
+                    text-align: center;
+                    width: 90%;
+                    margin: auto;
+                }
+    
+                & .tagsCont{
+                    margin: auto;
+                    margin-top: .5rem;
+                    padding: 0%;
+                    justify-content: center;
+    
+                    & .tags{
+                        width: auto;
+                        padding: .6rem 1rem;
+                        background-color: rgba(255, 255, 255, 0.6);
+                        align-self: center;
+                        text-align: center;
+                        border-radius: 6px;
+        
+                        & :hover{
+                            background-color: rgba(255, 255, 255, 1);
+                        }
+                    }
+                }
+    
+    
+                & .cta{
+                    font-weight: 600;
+                    width: 90%;
+                    margin-top: 3%;
+                    padding: 1rem;
+                    background-color: white;
+                    border-radius: 6px;
+                    border: none;
+                    align-self: center;
+                    font-size: 1rem;
+    
+                    & :hover{
+                        color: white;
+                        background-color: black;
+                        transition: 0.4s ease;
+                    }
+                }
+    
+            }
+            & .exploreText{
+                display: none;
+            }
+        }
+    }
+}
