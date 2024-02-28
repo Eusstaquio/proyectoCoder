@@ -1,22 +1,27 @@
 // ASSETS
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 @import './assets/reset';
 @import './assets/navbar';
 @import './assets/footer';
 
 // INICIO
-@import './sections/header_index';
-@import './sections/collections_index';
-@import './sections/products_index';
-@import './sections/whyus_index';
-@import './sections/subscribe_index';
-@import './sections/reviews_index'
+@import './sections_home/header_index';
+@import './sections_home/collections_index';
+@import './sections_home/products_index';
+@import './sections_home/whyus_index';
+@import './sections_home/subscribe_index';
+@import './sections_home/reviews_index';
 
-// 
+// ABOUT
+@import './sections_about/header_about';
+@import './sections_about/connect_with_us_about';
+@import './sections_about/choose_us_about';
+@import './sections_about/contact_us_about';
+@import './sections_about/reviews_about';
+// COLLECTIONS
+@import './sections_collections/header_collection';
+@import './sections_collections/all_products_collection';
 
-// 
+// SHOPPING CART
 
-// 
-
-// 
+// ACCOUNT

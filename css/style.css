@@ -141,8 +141,8 @@ h5 {
           align-self: center;
           text-align: center;
           border-radius: 6px; }
-          .header .headerContainer__flexbox .tagsCont .tags :hover {
-            background-color: white; }
+        .header .headerContainer__flexbox .tagsCont .tags:hover {
+          background-color: white; }
       .header .headerContainer__flexbox .cta {
         font-weight: 600;
         width: 65%;
@@ -150,10 +150,10 @@ h5 {
         background-color: white;
         border-radius: 6px;
         border: none; }
-        .header .headerContainer__flexbox .cta :hover {
-          color: white;
-          background-color: black;
-          transition: 0.4s ease; }
+      .header .headerContainer__flexbox .cta:hover {
+        color: white;
+        background-color: black;
+        transition: 0.4s ease; }
     .header .headerContainer .exploreText {
       font-size: 1rem;
       color: white;
@@ -211,8 +211,6 @@ h5 {
             align-self: center;
             text-align: center;
             border-radius: 6px; }
-            .header .headerContainer__flexbox .tagsCont .tags :hover {
-              background-color: white; }
         .header .headerContainer__flexbox .cta {
           font-weight: 600;
           width: 90%;
@@ -223,10 +221,6 @@ h5 {
           border: none;
           align-self: center;
           font-size: 1rem; }
-          .header .headerContainer__flexbox .cta :hover {
-            color: white;
-            background-color: black;
-            transition: 0.4s ease; }
       .header .headerContainer .exploreText {
         display: none; } }
 
@@ -559,6 +553,8 @@ h5 {
       background-color: antiquewhite;
       border-radius: 5%;
       box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.1); }
+      .reviews .reviewCardsCntndr .reviewCards img {
+        margin-top: 1rem; }
 
 @media screen and (max-width: 768px) {
   .reviews .reviewCardsCntndr .reviewCards {
