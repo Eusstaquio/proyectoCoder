@@ -10,113 +10,153 @@
 </head>
 <body>
     
-    <nav class="navBar" >
-        <ul class="" >
-            <li><a href="./about.html">ABOUT</a></li>
-            <li><a href="./collection.html">COLLECTION</a></li>
+
+    <nav class="nav navSecondary">
+        <ul class="nav__ul nav__ul-hidden" >
+            <li><a href="./pages/about.html">ABOUT</a></li>
+            <li><a href="./pages/collection.html">COLLECTION</a></li>
         </ul>
         
-        <a href="../index.html" ><img src="../Resorces/Logo_negro.png" alt="Logo" style="height: 50px;"></a>
+        <a class="nav__logo" href="/index.html" ><img src="../Resorces/logo_blanco.png" alt="Logo" style="height: 50px;"></a>
 
-        <ul class="" >
-            <li><a href="./shopping_cart.html">SHOPPING CART</a></li>
-            <li><a href="./account.html">ACCOUNT</a></li>
+        <ul class="nav__ul nav__ul-hidden" >
+            <li><a href="./pages/shopping_cart.html">SHOPPING CART</a></li>
+            <li><a href="./pages/account.html">ACCOUNT</a></li>
         </ul>
+
+        <div class="nav__burger-menu" id="nav__burger-menu">
+            <div class="nav__burger-icon"></div>
+        </div>
+
     </nav>
 
-    <main class="mainCollectionPage">
+ 
 
-        <!-- COLLECTION SECTION -->
+    <!-- COLLECTION SECTION -->
 
-        <section class="collectionSection">
+    <section class="collections">
 
-            <h2>Lorem ipsum dolor sit amet consectetur</h2>
+        <h2 class="collections__H2">Lorem ipsum dolor sit amet consectetur</h2>
 
-            <img src="../Resorces/image1_section2.png" alt="living room image">
-            <h5>Lorem ipsum dolor sit amet.</h5>
-            <h6>$130</h6>
-            <button>BUY NOW</button>
+        <div class="collections__boxes collections__box1">
             
-            <img src="../Resorces/image2_section2.png" alt="living room image 2">
-            <h5>Lorem ipsum dolor sit amet.</h5>
-            <h6>$130</h6>
-            <button>BUY NOW</button>
+            <img src="../Resorces/image1_section2.png" class="collections__boxes__img" alt="living room image">
 
-            <img src="../Resorces/image3_section2.png" alt="orange couch image">
-            <h5>Lorem ipsum dolor sit amet.</h5>
-            <h6>$130</h6>
+            <div class="box1__text collections__boxes__text">
+                <h5>Lorem ipsum dolor sit amet.</h5>
+                <h6>$130</h6>
+            </div>
+
             <button>BUY NOW</button>
 
-        </section>
+        </div>
 
-        <!-- PRODUCTS SECTION -->
-
-        <section class="productSection">
-
-            <h4>All</h4>
-            <img src="../icons/icon_filter.svg" alt="Filter icon">
-            <h5>Filter</h5>
-
-            <img src="../Resorces/image2_section3.png" alt="product 1 chair">
-            <h5>Lorem ipsum dolor sit amet.</h5>
-            <h5>$65.00</h5>
-
-            <img src="../Resorces/image3_section3.png" alt="product 1 chair">
-            <h5>Lorem ipsum dolor sit amet.</h5>
-            <h5>$65.00</h5>
+        <div class="collections__boxes collections__box2">
             
-            <img src="../Resorces/image4_section3.png" alt="product 1 chair">
-            <h5>Lorem ipsum dolor sit amet.</h5>
-            <h5>$65.00</h5>
+            <img src="../Resorces/image2_section2.png" class="collections__boxes__img" alt="living room image 2">
 
-            <img src="../Resorces/image5_section3.png" alt="product 1 chair">
-            <h5>Lorem ipsum dolor sit amet.</h5>
-            <h5>$65.00</h5>
+            <div class="box2__text collections__boxes__text">
+                <h5>Lorem ipsum dolor sit amet.</h5>
+                <h6>$130</h6>
+            </div>
 
-            <img src="../Resorces/image2_section3.png" alt="product 1 chair">
-            <h5>Lorem ipsum dolor sit amet.</h5>
-            <h5>$65.00</h5>
+            <button>BUY NOW</button>
 
-            <img src="../Resorces/image3_section3.png" alt="product 1 chair">
-            <h5>Lorem ipsum dolor sit amet.</h5>
-            <h5>$65.00</h5>
+        </div>
+
+        <div class="collections__boxes collections__box3">
             
-            <img src="../Resorces/image4_section3.png" alt="product 1 chair">
-            <h5>Lorem ipsum dolor sit amet.</h5>
-            <h5>$65.00</h5>
+            <img src="../Resorces/image3_section2.png" class="collections__boxes__img" alt="orange couch image">
 
-            <img src="../Resorces/image5_section3.png" alt="product 1 chair">
-            <h5>Lorem ipsum dolor sit amet.</h5>
-            <h5>$65.00</h5>
-            <img src="../Resorces/image2_section3.png" alt="product 1 chair">
-            <h5>Lorem ipsum dolor sit amet.</h5>
-            <h5>$65.00</h5>
+            <div class="box2__text collections__boxes__text">
+                <h5>Lorem ipsum dolor sit amet.</h5>
+                <h6>$130</h6>
+            </div>
 
-            <img src="../Resorces/image3_section3.png" alt="product 1 chair">
-            <h5>Lorem ipsum dolor sit amet.</h5>
-            <h5>$65.00</h5>
+            <button>BUY NOW</button>
+
+        </div>
+
+    </section>
+
+ <!-- PRODUCTS -->
+
+    <section class="products">
+
+        <div class="row-sm">
+            <div class="col">
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, iste?</h3>
+            </div>
+        </div>
+
+        <div class="row products__container">
+
+            <div class="col cards card1">
+                <img src="../Resorces/image2_section3.png" alt="product 1 chair">
+                <h5>Lorem ipsum dolor sit amet.</h5>
+                <h5>$65.00</h5>
+                <button class="products__cta cta" >ADD TO CART</button>
+            </div>
+            <div class="col cards card2">
+                <img src="../Resorces/image3_section3.png" alt="product 1 chair">
+                <h5>Lorem ipsum dolor sit amet.</h5>
+                <h5>$65.00</h5>
+                <button class="products__cta cta" >ADD TO CART</button>
+            </div>
+            <div class="col cards card3">
+                <img src="../Resorces/image4_section3.png" alt="product 1 chair">
+                <h5>Lorem ipsum dolor sit amet.</h5>
+                <h5>$65.00</h5>
+                <button class="products__cta cta" >ADD TO CART</button>
+            </div>
+            <div class="col cards card4">
+                <img src="../Resorces/image5_section3.png" alt="product 1 chair">
+                <h5>Lorem ipsum dolor sit amet.</h5>
+                <h5>$65.00</h5>
+                <button class="products__cta cta" >ADD TO CART</button>
+            </div>
+
+            <div class="col cards card1">
+                <img src="../Resorces/image2_section3.png" alt="product 1 chair">
+                <h5>Lorem ipsum dolor sit amet.</h5>
+                <h5>$65.00</h5>
+                <button class="products__cta cta" >ADD TO CART</button>
+            </div>
+            <div class="col cards card2">
+                <img src="../Resorces/image3_section3.png" alt="product 1 chair">
+                <h5>Lorem ipsum dolor sit amet.</h5>
+                <h5>$65.00</h5>
+                <button class="products__cta cta" >ADD TO CART</button>
+            </div>
+            <div class="col cards card3">
+                <img src="../Resorces/image4_section3.png" alt="product 1 chair">
+                <h5>Lorem ipsum dolor sit amet.</h5>
+                <h5>$65.00</h5>
+                <button class="products__cta cta" >ADD TO CART</button>
+            </div>
+            <div class="col cards card4">
+                <img src="../Resorces/image5_section3.png" alt="product 1 chair">
+                <h5>Lorem ipsum dolor sit amet.</h5>
+                <h5>$65.00</h5>
+                <button class="products__cta cta" >ADD TO CART</button>
+            </div>
             
-            <img src="../Resorces/image4_section3.png" alt="product 1 chair">
-            <h5>Lorem ipsum dolor sit amet.</h5>
-            <h5>$65.00</h5>
+        </div>
 
-            <img src="../Resorces/image5_section3.png" alt="product 1 chair">
-            <h5>Lorem ipsum dolor sit amet.</h5>
-            <h5>$65.00</h5>
 
-        </section>
 
-    </main>
+        
+    </section>
  
     <footer class="footer" >
-
-        <ul>
+        
+        <ul class="footer__linksCntndr">
             <li><a href="#">Contact Us</a></li>
             <li><a href="#">FAQ</a></li>
             <li><a href="#">Privacy Policy</a></li>
             <li><a href="#">Terms and Conditions</a></li>
         </ul>
-        
+
     </footer>
 
 </body>
