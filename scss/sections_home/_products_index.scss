@@ -60,13 +60,41 @@
 
 
 @media screen and (max-width: 1260px) {
-    .cards {
-        flex-basis: calc(33.33% - 2rem); /* Tres tarjetas por fila */
+
+    .row{
+        --bs-gutter-x: 0;
+        --bs-gutter-y: 0;
     }
+
+    .products{
+
+        &__container {
+            .cards {
+                flex-basis: calc(33.33% - 2rem);
+            }
+        }
+    }    
 }
 
 @media screen and (max-width: 576px) {
-    .cards {
-        flex-basis: calc(50% - 2rem); /* Dos tarjetas por fila en pantallas de celular */
-    }
+    .products{
+
+        &__parallax{
+            background-image: url("../Resorces/image1_section3.png");
+            min-height: 320px;
+            width: 100%;
+            background-attachment: scroll;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: bottom;
+        }
+        &__container {
+            margin: auto;
+            .cards {
+                flex-basis: calc(50% - 2rem);
+                margin: 0%;
+                margin-top: 1rem;
+            }
+        }
+    } 
 }
