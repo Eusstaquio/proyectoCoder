@@ -231,7 +231,7 @@ h5 {
   grid-template-rows: repeat(3, auto);
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas: "tittle tittle" "box1 box2" "box1 box3"; }
-  .collections__H1 {
+  .collections__H2 {
     grid-area: tittle;
     text-align: center;
     margin-top: 4rem; }
@@ -364,7 +364,7 @@ h5 {
 
 .cntndr {
   margin: auto; }
-  .cntndr__titulo h1 {
+  .cntndr__titulo h2 {
     text-align: center;
     margin: 3rem 0; }
   .cntndr__razones {
@@ -484,7 +484,7 @@ h5 {
 
 .reviews {
   margin-top: 3rem; }
-  .reviews h1 {
+  .reviews h2 {
     margin: auto; }
   .reviews .reviewCardsCntndr {
     justify-content: center;
