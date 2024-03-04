@@ -23,6 +23,7 @@ h5 {
     display: flex;
     list-style: none; }
     .nav__ul li {
+      margin-top: 1rem;
       padding: 0 10px; }
       .nav__ul li a {
         font-family: "Poppins", sans-serif;
