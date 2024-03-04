@@ -65,7 +65,7 @@ h5 {
     right: 2rem; } }
 
 .navSecondary {
-  background-color: black;
+  background-color: #486161;
   flex-direction: row;
   flex-wrap: wrap;
   display: flex;
@@ -120,16 +120,16 @@ h5 {
 .footer {
   background-color: bisque;
   margin-top: 4rem; }
-  .footer__linksCntndr {
+  .footer ul {
     margin: auto;
     list-style: none;
     width: 90%;
     display: flex;
     justify-content: center;
     align-items: center; }
-    .footer__linksCntndr li {
+    .footer ul li {
       padding: 6rem 2%; }
-      .footer__linksCntndr li a {
+      .footer ul li a {
         text-decoration: none;
         color: black; }
 
@@ -555,3 +555,37 @@ h5 {
 @media screen and (max-width: 768px) {
   .reviews .reviewCardsCntndr .reviewCards {
     width: 90%; } }
+
+.about_header {
+  margin: auto;
+  margin-top: 3rem;
+  text-align: center; }
+  .about_header img {
+    height: auto;
+    max-width: 1200px;
+    width: 90%; }
+  .about_header .rowAllBoxes {
+    justify-content: center;
+    text-align: left;
+    max-width: 1200px;
+    margin: auto;
+    gap: 2%; }
+    .about_header .rowAllBoxes .boxes {
+      width: 33%; }
+    .about_header .rowAllBoxes .img_container {
+      width: 2fr; }
+      .about_header .rowAllBoxes .img_container img {
+        height: auto;
+        width: 60%; }
+
+.contactUsSection {
+  text-align: right;
+  margin-top: 3rem; }
+  .contactUsSection .formContainer {
+    text-align: left;
+    justify-items: center; }
+    .contactUsSection .formContainer h5 {
+      margin-top: 1rem; }
+    .contactUsSection .formContainer button {
+      display: block;
+      margin-top: 1rem; }

@@ -1,0 +1,17 @@
+.contactUsSection{
+    text-align: right;
+    margin-top: 3rem;
+
+    .formContainer{
+        text-align: left;
+        justify-items: center;
+
+        h5{
+            margin-top: 1rem;
+        }
+        button{
+            display: block;
+            margin-top: 1rem;
+        }
+    }
+}
