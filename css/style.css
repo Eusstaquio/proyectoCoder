@@ -137,9 +137,9 @@ h5 {
 @media screen and (max-width: 600px) {
   .footer {
     background-color: bisque;
-    margin-top: 4rem; }
-    .footer__linksCntndr {
-      padding: 0;
+    margin-top: 3rem; }
+    .footer ul {
+      padding: 2.5rem 0;
       margin: auto;
       list-style: none;
       width: 90%;
@@ -147,9 +147,10 @@ h5 {
       flex-direction: column;
       justify-content: center;
       align-items: center; }
-      .footer__linksCntndr li {
+      .footer ul li {
+        height: auto;
         padding: 1rem; }
-        .footer__linksCntndr li a {
+        .footer ul li a {
           text-decoration: none;
           color: black; } }
 
@@ -570,23 +571,98 @@ h5 {
     text-align: left;
     max-width: 1200px;
     margin: auto;
-    gap: 2%; }
+    margin-top: 1rem;
+    gap: 3%; }
     .about_header .rowAllBoxes .boxes {
-      width: 33%; }
+      width: 32%;
+      border: solid 0.5px rgba(0, 0, 0, 0.4);
+      border-radius: .8rem;
+      padding: 1rem 0;
+      align-items: center;
+      min-width: 400px; }
     .about_header .rowAllBoxes .img_container {
-      width: 2fr; }
+      padding: 0%;
+      padding-left: 3%; }
       .about_header .rowAllBoxes .img_container img {
         height: auto;
-        width: 60%; }
+        border-radius: 5%;
+        width: 100%; }
+    .about_header .rowAllBoxes .text_container h4 {
+      font-size: larger;
+      margin: 0;
+      margin-bottom: .4rem;
+      padding-top: 0%; }
+    .about_header .rowAllBoxes .text_container p {
+      font-size: 11pt;
+      margin: 0%; }
 
 .contactUsSection {
   text-align: right;
   margin-top: 3rem; }
+  .contactUsSection .imgContainer {
+    align-self: center; }
+    .contactUsSection .imgContainer img {
+      height: auto;
+      width: 90%;
+      padding-left: 2rem; }
   .contactUsSection .formContainer {
     text-align: left;
-    justify-items: center; }
+    justify-items: center;
+    padding-left: 1rem; }
     .contactUsSection .formContainer h5 {
       margin-top: 1rem; }
+    .contactUsSection .formContainer p {
+      width: 70%; }
+    .contactUsSection .formContainer input, .contactUsSection .formContainer textarea {
+      margin-bottom: 1rem;
+      display: block;
+      width: 70%;
+      height: 2.8rem;
+      border-radius: 4px;
+      border: solid 0.4px rgba(0, 0, 0, 0.1);
+      box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.1);
+      padding-left: 1rem; }
+    .contactUsSection .formContainer textarea {
+      height: 5rem;
+      padding-top: .5rem; }
     .contactUsSection .formContainer button {
       display: block;
-      margin-top: 1rem; }
+      margin-top: 1rem;
+      padding: 1rem;
+      font-weight: 600;
+      padding: 1rem 4rem;
+      background-color: black;
+      border-radius: 6px;
+      border: none;
+      color: white; }
+      .contactUsSection .formContainer button:hover {
+        color: black;
+        background-color: white;
+        transition: 0.4s ease;
+        box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.6); }
+
+@media screen and (max-width: 768px) {
+  .contactUsSection {
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding-top: 3rem; }
+    .contactUsSection .imgContainer {
+      padding: 0;
+      text-align: center;
+      width: 100%; }
+      .contactUsSection .imgContainer img {
+        width: 100%;
+        padding: 0%; }
+    .contactUsSection .formContainer {
+      align-self: center;
+      padding: 1rem 0;
+      width: 100%;
+      text-align: center; }
+      .contactUsSection .formContainer input, .contactUsSection .formContainer textarea, .contactUsSection .formContainer p {
+        width: 100%; }
+      .contactUsSection .formContainer h5 {
+        text-align: left; }
+      .contactUsSection .formContainer button {
+        margin: auto;
+        width: 100%; } }

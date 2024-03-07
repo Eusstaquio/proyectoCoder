@@ -22,12 +22,13 @@
 }
 
 @media screen and(max-width: 600px){
+
     .footer{
         background-color: bisque;
-        margin-top: 4rem;
+        margin-top: 3rem;
     
-        &__linksCntndr{
-            padding: 0;
+        ul{
+            padding: 2.5rem 0;
             margin: auto;
             list-style: none;
             width: 90%;
@@ -35,16 +36,18 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-    
-    
+
             li{
+                height: auto;
                 padding: 1rem;
+
                 a{
                     text-decoration: none;
                     color: black;
                 }
             }
         }
+        
     }
 
 }
