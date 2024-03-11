@@ -712,3 +712,124 @@ h5 {
       .contactUsSection .formContainer button {
         margin: auto;
         width: 100%; } }
+
+.shoppingCartSection {
+  width: 80%;
+  margin: auto;
+  margin-top: 2.5rem; }
+  .shoppingCartSection .itemsContainer {
+    padding: 0 1rem 1rem 1rem; }
+    .shoppingCartSection .itemsContainer h2 {
+      padding-bottom: .5rem;
+      margin: 1.5rem 0;
+      border-radius: 0;
+      border-bottom: solid 0.2pt rgba(0, 0, 0, 0.2); }
+    .shoppingCartSection .itemsContainer .imgContainer {
+      max-width: 220px; }
+      .shoppingCartSection .itemsContainer .imgContainer img {
+        width: 100%; }
+    .shoppingCartSection .itemsContainer .itemData {
+      padding-left: 1rem; }
+      .shoppingCartSection .itemsContainer .itemData p {
+        font-weight: 500;
+        font-size: 13pt;
+        margin: 0%; }
+      .shoppingCartSection .itemsContainer .itemData span {
+        font-weight: 400;
+        color: #747474; }
+      .shoppingCartSection .itemsContainer .itemData button {
+        margin-top: 1rem;
+        padding: .3rem .8rem;
+        border-radius: .4rem;
+        background-color: white;
+        border: solid 0.2pt rgba(0, 0, 0, 0.2);
+        cursor: pointer; }
+      .shoppingCartSection .itemsContainer .itemData .cantidad {
+        display: inline;
+        margin: 0 1rem; }
+    .shoppingCartSection .itemsContainer .priceColumn {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-end; }
+      .shoppingCartSection .itemsContainer .priceColumn h3 {
+        text-align: end; }
+      .shoppingCartSection .itemsContainer .priceColumn button {
+        padding: .5rem;
+        border-radius: .3rem .5rem;
+        background-color: white;
+        border: solid 0.2pt rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        margin-bottom: .5rem; }
+  .shoppingCartSection .itemsContainer2 {
+    border-top: solid 0.2pt rgba(0, 0, 0, 0.2);
+    padding-top: 1rem; }
+  .shoppingCartSection .sumaryContainer {
+    width: 28%;
+    margin-left: 2%;
+    height: fit-content;
+    padding: 0 1rem; }
+    .shoppingCartSection .sumaryContainer h2 {
+      text-align: center;
+      margin: 1rem 0; }
+    .shoppingCartSection .sumaryContainer h5 {
+      margin-top: 1rem;
+      display: inline-block;
+      width: 69%; }
+    .shoppingCartSection .sumaryContainer p {
+      display: inline-block;
+      width: 29%;
+      text-align: end; }
+    .shoppingCartSection .sumaryContainer .total {
+      margin-top: 3rem; }
+    .shoppingCartSection .sumaryContainer .cta {
+      font-weight: 600;
+      padding: 1rem;
+      background-color: black;
+      margin: auto;
+      margin-bottom: 1.5rem;
+      border-radius: 6px;
+      border: none;
+      color: white;
+      width: 100%; }
+
+.boxes {
+  border-radius: 1rem;
+  border: solid 0.2pt rgba(0, 0, 0, 0.2); }
+
+.shippingInfoSection {
+  width: 56%;
+  margin-left: 10%;
+  margin-top: 2.5rem;
+  padding: 0 1rem; }
+  .shippingInfoSection h3 {
+    padding-top: 1rem; }
+  .shippingInfoSection p {
+    color: #696969; }
+  .shippingInfoSection button {
+    font-weight: 600;
+    padding: 1rem;
+    background-color: black;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    width: 40%;
+    margin: 1.5rem auto 1rem 0; }
+
+@media screen and (max-width: 1100px) {
+  .shoppingCartSection {
+    flex-direction: column;
+    width: 90%; }
+    .shoppingCartSection .sumaryContainer {
+      width: 100%;
+      margin: 1.5rem auto; }
+  .shippingInfoSection {
+    width: 90%;
+    margin: auto; }
+    .shippingInfoSection h3 {
+      text-align: center; }
+    .shippingInfoSection .shippingInfoTexto {
+      text-align: center; }
+    .shippingInfoSection button {
+      width: 100%;
+      margin-bottom: 1.5rem; } }
